@@ -30,9 +30,12 @@ function repoInformationHTML(repos) {
               <p>
                   <strong>Repo List:</strong>
               </p>
-              <ul>
-                  ${listItemsHTML.join("\n")}
-              </ul>
+              <div class='repo-list-items'>
+                <ul>
+                    ${listItemsHTML.join("\n")}
+                </ul>
+              </div>
+              
           </div>`;
 }
 
