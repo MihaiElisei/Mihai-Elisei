@@ -117,7 +117,7 @@ header {
 }
 
 .logo {
-    background: url("../images/mihai.JPG");
+    background: url("assets/images/mihai.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
