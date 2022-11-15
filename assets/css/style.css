@@ -19,7 +19,7 @@
 }
 
 .bg-color-work-history {
-    background-color: #9b59b6;
+    background-color: #006E7F;
 }
 
 .bg-color-contact {
@@ -102,6 +102,7 @@ h4 {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 
@@ -116,8 +117,8 @@ header {
 }
 
 .logo {
-    background: url("../images/Mihai.JPG");
-    background-position: center;
+    background: url("../images/mihai.JPG");
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
@@ -145,6 +146,7 @@ header {
 
 #nav {
     margin: 0;
+
 }
 
 #nav li {
@@ -392,18 +394,20 @@ div#map {
 
 /*--------------------------------------------GitHub*/
 
-.repo-list-items ul li{
+.repo-list-items ul li {
     list-style: none;
     display: inline-block;
     padding: 5px;
 }
-.repo-list-items ul li a{
+
+.repo-list-items ul li a {
     background-color: #e84610;
     color: #fafafa;
     padding: 5px;
     border-radius: 10px;
 
 }
+
 /*--------------------------------------------Media Queries*/
 
 @media(min-width: 992px) {
